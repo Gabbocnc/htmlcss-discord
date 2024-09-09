@@ -6,7 +6,7 @@
     --pink: #ee82ee;
     --light-blue: #1e90ff;
     --salmon: #ffc0cb;
-    --light-wood: #d3d3d3;
+    --light-wood: #F6F6F6;
     --green: #228b22;
     --black: #23272a;
     --salmon-2: #f08080;
@@ -21,7 +21,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ;
+    font-family:
 }
 
 .bg {
@@ -47,6 +47,16 @@
 img {
     max-width: 100%;
 }
+.wave{
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: auto;
+    height: 250px;
+    opacity: 4%;
+ }
+ .wave2{
+     transform: scale(-1);
+ }
 
 /* #endregion common */
 /* #region debug */
@@ -115,11 +125,12 @@ img {
     width: 60%;
     text-align: center;
     color: white;
-    position: relative;
-    padding: 11px;
+    padding: 12px;
     font-size: 22px;
 }
-
+.whyds{
+    word-spacing: 0;
+}
 .login {
     margin: auto;
     border-radius: 40px;
@@ -384,14 +395,3 @@ h4{
 }
 
 /* #endregion footer */
-.wave{
-   background-repeat: no-repeat;
-   width: 100%;
-   margin: auto;
-   height: 250px;
-   opacity: 4%;
-}
-.wave2{
-    transform: scale(-1);
-
-}
