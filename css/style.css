@@ -151,7 +151,7 @@ img {
 /* #endregion main */
 /* #region first section */
 .dblue {
-    background-image: url(/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -290,7 +290,7 @@ img {
     font-size: 20px;
 }
 .readytostart{
-    background-image: url(/img/stars.svg);
+    background-image: url(../img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
