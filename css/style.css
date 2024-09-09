@@ -13,6 +13,7 @@
     --acquamarine: #20b2aa;
     --login: #eca9b3;
     --bg-login: #7fffd4;
+    --discord: #7289da; 
 }
 /* #endregion root */
 /* #region common */
@@ -116,6 +117,7 @@ img {
     color: white;
     position: relative;
     padding: 11px;
+    font-size: 25px;
 }
 
 .login {
@@ -123,10 +125,10 @@ img {
     border-radius: 40px;
     background-color: white;
     margin-left: 60px;
-    width: 40px;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 3px;
-    padding: 6px 10px;
+    line-height: 12px;
+    padding: 10px 40px;
 }
 
 /* #endregion header */
@@ -281,7 +283,7 @@ img {
 }
 .dmac2{
     font-size: 20px;
-    background-color: var(--light-primary);
+    background-color: var(--discord);
     color: var(--black);
     border-radius: 40px;
     padding: 5px;
@@ -292,37 +294,62 @@ img {
 /* #endregion fifth section */
 /* #region footer */
 .f-flex {
-    display: flex;
     flex-wrap: wrap;
-    border-bottom: 2px solid rgb(255, 0, 0);
     background-color: var(--black);
 }
 
 .footer {
     background-color: var(--black);
-    padding: 30px;
     justify-content: center;
-    border-bottom: 2px solid rgb(255, 0, 0);
+    border-bottom: 2px solid var(--discord);
 }
 
-.salmon3 {
-    background-color: var(--salmon-2);
-    width: 25%;
+.posto {
+    width: 70%;
+    color: var(--discord);
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+#ita{
+    width: 30px;
+    margin-right: 10px;
+}
+.italiano{
+    color: white;
+    font-weight: bold;
 }
 
 .acq {
-    background-color: var(--acquamarine);
     width: 10%;
 }
+.social{
+    margin: 3px 3px 3px 0px;
+    width: 30px;
+    height: 30;
+}
+li{
+    list-style-type: none;
+    color: white;
+    margin: 8px;
+    margin-left: 0;
+    font-weight: bold;
+}   
+h4{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--discord);
+}
+
 
 .secondfooter {
-    width: 62%;
+    width: 65%;
     margin: auto;
     margin-top: 7px;
 }
 
 .sfooter {
-    background-color: var(--bg-login);
+    background-color: var(--black);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -332,13 +359,9 @@ img {
 
 .second-logo,
 .button {
-    background-color: var(--login);
-    font-size: 15px;
-    width: 60px;
-    height: 30px;
+    width: 200px;
     text-align: center;
     margin-top: 3px;
-    border: 6px dashed #00000000;
 }
 
 .second-logo {
@@ -346,8 +369,11 @@ img {
 }
 
 .button {
-    margin-right: -7px;
-
+    width: 90px;
+    border-radius: 40px;
+    color: white;
+    background-color: var(--discord);
+    padding: 8px 12px;
 }
 
 /* #endregion footer */
