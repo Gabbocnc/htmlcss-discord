@@ -257,11 +257,37 @@ img {
     padding: 30px;
     width: 100%;
 }
-
 .green {
-    background-color: var(--green);
     width: 100%;
+    text-align: center;
 }
+.tecnology{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.tools{
+    font-size: 20px;
+}
+.readytostart{
+    background-image: url(/img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+.dmac2{
+    font-size: 20px;
+    background-color: var(--light-primary);
+    color: var(--black);
+    border-radius: 40px;
+    padding: 5px;
+    font-weight: bold;
+}
+
 
 /* #endregion fifth section */
 /* #region footer */
