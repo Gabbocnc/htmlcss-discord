@@ -35,7 +35,7 @@
 .fourth-section,
 .fifth-section {
     display: flex;
-    width: 65%;
+    width: 70%;
     margin: auto;
 }
 
@@ -155,7 +155,7 @@ img {
 }
 .introduction{
     text-align: center;
-    font-size: 13px;
+    font-size: 30px;
     margin-bottom: 7px;
 }
 .dmac{
@@ -165,7 +165,7 @@ img {
     border-radius: 40px;
     padding: 5px;
     font-weight: bold;
-    margin-left: 100px;
+    margin-left: 40%;
 }
 .openb{
     font-size: 10px;
@@ -197,11 +197,11 @@ img {
     .invite{
         color: black;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 50px;;
         margin-bottom: 10px;    
     }
     .talking{
-        font-size: 8px;
+        font-size: 20px;
     }
 }
 
@@ -212,25 +212,44 @@ img {
     background-color: var(--light-wood);
     padding: 30px;
     width: 100%;
+    /* background-image: url(/img/wave.svg); */
+    
 }
 
 .lblue2 {
-    background-color: var(--light-blue);
     width: 35%;
+    
+    .find{
+        font-size: 50px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: black;
+    }
+    .friend{
+        font-size: 20px;
+    }
 }
-.find{
-    font-size: 18px;
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: black;
-}
+
 
 .voiceconnected {
     width: 65%;
     margin-left: 70px;
 }
-
 /* #endregion third section */
+/* #region fourth section */
+.item3{
+}
+.fandom, .cstart{
+    margin-left: 70px;
+}
+.fandom{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.cstart{
+    font-size: 20px
+}
+/* #endregion fourh section */
 /* #region fifth section */
 .bg-lwood2 {
     display: flex;
