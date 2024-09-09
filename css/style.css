@@ -1,6 +1,6 @@
 /* #region root */
 :root {
-    --light-heavenly: #add8e6;
+    --light-primary: #3161e0;
     --orange: #daa520;
     --dark-blue: #00008b;
     --pink: #ee82ee;
@@ -14,14 +14,13 @@
     --login: #eca9b3;
     --bg-login: #7fffd4;
 }
-
 /* #endregion root */
 /* #region common */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 1.1rem;
+    font-family: ;
 }
 
 .bg {
@@ -97,31 +96,42 @@ img {
 /* #endregion debug */
 /* #region header */
 .bg-heavenly {
-    background-color: var(--light-heavenly);
+    background-color: var(--light-primary);
     padding: 10px;
 }
 
 .h-flex {
     margin: auto;
     display: flex;
-    background: var(--orange);
-    width: 70%;
+    width: 90%;
+    font-weight: bolder;
+    font-size: 7px;
+    word-spacing: 20px;
+    padding: 7px;
 }
 
 .logo {
-    width: 25%;
-    padding-left: 0.5rem;
+    width: 20%;
+    padding: 7px;
 }
 
 .link {
-    width: 50%;
+    width: 60%;
     text-align: center;
+    color: white;
+    position: relative;
+    padding: 11px;
 }
 
 .login {
-    width: 25%;
-    text-align: end;
-    padding-right: 0.5rem;
+    margin: auto;
+    border-radius: 40px;
+    background-color: white;
+    margin-left: 60px;
+    width: 40px;
+    font-weight: 700;
+    line-height: 3px;
+    padding: 6px 10px;
 }
 
 /* #endregion header */
@@ -133,10 +143,12 @@ img {
 /* #endregion main */
 /* #region first section */
 .dblue {
-    background-color: var(--dark-blue);
-    width: 100%;
-    padding: 30px;
+    background-image: url(/img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+   
 
 .first-section {
     background-color: var(--pink);
@@ -195,7 +207,6 @@ img {
 }
 
 /* #endregion fifth section */
-
 /* #region footer */
 .f-flex {
     display: flex;
