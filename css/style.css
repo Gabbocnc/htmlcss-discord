@@ -186,7 +186,6 @@ img {
 }
 
 .study {
-    background-color: var(--light-blue);
     width: 65%;
     margin-right: 70px;
 }
@@ -219,10 +218,16 @@ img {
     background-color: var(--light-blue);
     width: 35%;
 }
+.find{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+}
 
-.salmon2 {
+.voiceconnected {
     width: 65%;
-    background-color: var(--salmon);
+    margin-left: 70px;
 }
 
 /* #endregion third section */
