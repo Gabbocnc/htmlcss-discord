@@ -384,3 +384,14 @@ h4{
 }
 
 /* #endregion footer */
+.wave{
+   background-repeat: no-repeat;
+   width: 100%;
+   margin: auto;
+   height: 250px;
+   opacity: 4%;
+}
+.wave2{
+    transform: scale(-1);
+
+}
