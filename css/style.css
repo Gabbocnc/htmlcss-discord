@@ -185,15 +185,27 @@ img {
     width: 100%;
 }
 
-.lblue {
+.study {
     background-color: var(--light-blue);
     width: 65%;
+    margin-right: 70px;
 }
 
-.salmon {
-    width: 35%;
-    background-color: var(--salmon);
+.luogo {
+    width: 29%;
+    
+    
+    .invite{
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 10px;    
+    }
+    .talking{
+        font-size: 8px;
+    }
 }
+
 
 /* #endregion second part main */
 /* #region third section */
