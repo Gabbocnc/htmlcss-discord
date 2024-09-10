@@ -23,23 +23,17 @@
     box-sizing: border-box;
     font-family:
 }
-
 .bg {
     display: flex;
     background-color: rgb(255, 255, 255);
     padding: 30px;
     width: 100%;
 }
-
-.second-section,
-.third-section,
-.fourth-section,
-.fifth-section {
+.chill, .invete-only, .fandom, .keepintouch {
     display: flex;
     width: 70%;
     margin: auto;
 }
-
 .dflex {
     display: flex;
 }
@@ -63,49 +57,39 @@ img {
 .debug * {
     border: 1px dashed black;
 }
-
-.debug .dblue .first-section {
+.debug .dblue .talking {
     height: 300px;
 }
-
 .debug .lwood {
     height: 300px;
 }
-
 .debug .lwood2 {
     height: 500px;
 }
-
 .debug .footer {
     height: 350px;
 }
-.debug .second-section {
+.debug .chill {
     height: 300px;
 }
-
 .debug .bg-white {
     height: 300px;
 }
-
-.debug .third-section {
+.debug .fandom {
     height: 300px;
 }
-
-.debug .fourth-section {
-    height: 300px;
-}
-
-.debug .fifth-section {
+.debug .keepintouch {
     height: 400px;
 }
-
+.debug .invete-only{
+    height: 400px;
+}
 /* #endregion debug */
 /* #region header */
 .bg-heavenly {
     background-color: var(--light-primary);
     padding: 10px;
 }
-
 .h-flex {
     margin: auto;
     display: flex;
@@ -115,12 +99,10 @@ img {
     word-spacing: 20px;
     padding: 7px;
 }
-
 .logo {
     width: 20%;
     padding: 7px;
 }
-
 .link {
     width: 60%;
     text-align: center;
@@ -147,23 +129,21 @@ img {
 .jumbo {
     flex-wrap: wrap;
 }
-
 /* #endregion main */
-/* #region first section */
+/* #region talking section */
 .dblue {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.first-section {
+.talking{
     width: 60%;
     margin: auto;
     font-size: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 0;
     margin-bottom: 200px;
-}
-
+}   
 .talk{
     margin-bottom: 20px;
     margin-top: 150px;
@@ -195,47 +175,37 @@ img {
     padding: 5px;
     font-weight: bold;
 }
-
-
-/* #endregion first part main */
-/* #region second section */
+/* #endregion talking section */
+/* #region inveteonly section */
 .white {
     background-color: rgb(255, 255, 255);
     padding: 30px;
     width: 100%;
 }
-
 .study {
     width: 65%;
     margin-right: 70px;
 }
-
 .luogo {
     width: 29%;
-    
-    
-    .invite{
-        color: black;
-        font-weight: bold;
-        font-size: 50px;;
-        margin-bottom: 10px;    
-    }
-    .talking{
-        font-size: 20px;
-    }
+    margin-top: 30px;
 }
-
-
-/* #endregion second part main */
-/* #region third section */
+.invite{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 50px;;
+    margin-bottom: 10px;    
+}
+.channel{
+    font-size: 20px;
+}
+/* #endregion inveteonly section */
+/* #region chill section */
 .bg-lwood {
     background-color: var(--light-wood);
     padding: 30px;
     width: 100%;
-    /* background-image: url(/img/wave.svg); */
-    
 }
-
 .lblue2 {
     width: 35%;
     
@@ -249,19 +219,12 @@ img {
         font-size: 20px;
     }
 }
-
-
 .voiceconnected {
     width: 65%;
     margin-left: 70px;
 }
-/* #endregion third section */
-/* #region fourth section */
-.item3{
-}
-.fandom, .cstart{
-    margin-left: 70px;
-}
+/* #endregion chill section */
+/* #region fandom section */
 .fandom{
     font-size: 50px;
     margin-bottom: 10px;
@@ -269,8 +232,8 @@ img {
 .cstart{
     font-size: 20px
 }
-/* #endregion fourh section */
-/* #region fifth section */
+/* #endregion fandom section */
+/* #region keepintouch section */
 .bg-lwood2 {
     display: flex;
     background-color: var(--light-wood);
@@ -307,9 +270,7 @@ img {
     padding: 5px;
     font-weight: bold;
 }
-
-
-/* #endregion fifth section */
+/* #endregion keepintouch section */
 /* #region footer */
 .f-flex {
     flex-wrap: wrap;
@@ -358,14 +319,11 @@ h4{
     font-weight: bold;
     color: var(--discord);
 }
-
-
 .secondfooter {
     width: 65%;
     margin: auto;
     margin-top: 7px;
 }
-
 .sfooter {
     background-color: var(--black);
     display: flex;
@@ -374,18 +332,15 @@ h4{
     width: 100%;
     padding: 7px;
 }
-
 .second-logo,
 .button {
     width: 200px;
     text-align: center;
     margin-top: 3px;
 }
-
 .second-logo {
     margin-left: -7px;
 }
-
 .button {
     width: 90px;
     border-radius: 40px;
@@ -393,5 +348,4 @@ h4{
     background-color: var(--discord);
     padding: 8px 12px;
 }
-
 /* #endregion footer */
